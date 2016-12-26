@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Aedan Cullen | Computer scientist, engineer, and musician</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+
+
+<body>
+<div id="slidercontainer">
+
+<div id="topbar">
+
+<a href="javascript:void(0);" onclick="slide($('#start'),'0');">
+<img id="toplogo" src="aedan.png">
+</img>
+</a>
+
+<a class="toplink" id="start" href="javascript:void(0);" onclick="slide(this,'0');">general
+</a>
+<a class="toplink" href="javascript:void(0);" onclick="slide(this,'-100');">software
+</a>
+<a class="toplink" href="javascript:void(0);" onclick="slide(this,'-200');">music
+</a>
+<a class="toplink" href="javascript:void(0);" onclick="slide(this,'-300');">about
+</a>
+
+</div><!--topbar-->
+
+<div id="slider">
+
+<div class="slideitem" style="left: 0%;background-color:#7CD4E3">
+<div class="slidecontent 0">
+<span class="sectiontitle">title</span>
+<p class="sectioncontent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac congue purus. Nunc quis gravida nisl, eget commodo risus. Proin sit amet lorem ut purus porttitor aliquam. Nam consequat, enim id suscipit eleifend, ex mi semper purus, at auctor quam lacus at ante. Vivamus ut turpis erat. Ut quam elit, fringilla id gravida sed, dictum non lorem. Duis pretium eleifend vehicula. Nullam justo neque, rutrum at dignissim vitae, fringilla semper leo. Ut gravida, risus nec venenatis placerat, ante metus interdum orci, a mollis purus mauris ac neque. Pellentesque augue nunc, rhoncus nec sodales non, elementum quis tellus. Curabitur vel tristique ipsum.</p>
+</div><!--slidecontent-->
+</div><!--slideitem-->
+<div class="slideitem" style="left: 25%;background-color:#7CE3D4">
+<div class="slidecontent -100">
+<span class="sectiontitle">title</span>
+<p class="sectioncontent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aliquam gravida nulla ut mauris accumsan porttitor. Pellentesque tincidunt arcu sit amet justo fermentum, vel egestas libero consectetur. Praesent aliquet tempor lorem eget elementum. Vestibulum quis sapien rutrum, rhoncus dolor vel, lacinia orci. Sed nec metus nunc. Vivamus ut sollicitudin urna. Etiam non ligula a magna faucibus pellentesque ac nec tortor.</p>
+<p class="sectioncontent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praesent eu erat a erat pharetra blandit. Curabitur et blandit est. Nam pretium felis lectus, id cursus felis efficitur quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean malesuada pharetra enim, vitae pulvinar augue viverra in. Sed sit amet suscipit est, sed dictum leo. Nullam rhoncus elit quis suscipit rhoncus.</p>
+</div><!--slidecontent-->
+</div><!--slideitem-->
+<div class="slideitem" style="left: 50%;background-color:#A0BEE8">
+<div class="slidecontent -200">
+</div><!--slidecontent-->
+</div><!--slideitem-->
+<div class="slideitem" style="left: 75%;background-color:#C0B8CE">
+<div class="slidecontent -300">
+<a class="sectiontitle" href="about/">Who is Aedan</a>
+<p class="sectioncontent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Text here, about the contents of this article. There will be a button that allows you to... <a class="morelink" href="about/">read more</a></p>
+</div><!--slidecontent-->
+</div><!--slideitem-->
+
+</div><!--slider-->
+
+</div><!--slidercontainer-->
+</body>
+
+
+</html>

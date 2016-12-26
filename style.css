@@ -1,0 +1,118 @@
+
+#topbar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 350px;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	z-index: 999;
+	font-family: 'Raleway';
+}
+
+#toplogo {
+	display: block;
+	width: 80%;
+	margin: auto;
+	font-size: 115%;
+}
+
+.toplink {
+	display: block;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	width: 25%;
+	margin-top: 40px;
+	color: #000000;
+}
+
+.toplink:hover {
+	text-decoration: underline;
+}
+
+.toplinkselected {
+	text-decoration: underline;
+}
+
+#slidercontainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+    
+	overflow-x: hidden;
+	z-index: 998;
+}
+
+#slider {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0%;
+	width: 400%;
+	height: 200%;
+	-webkit-transition: left 1.5s cubic-bezier(.23,.88,.88,.98);
+    transition: left 1.5s cubic-bezier(.23,.88,.88,.98);
+}
+
+.slideitem {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 25%;
+	opacity: 0.1;
+	-webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.slidecontent {
+	opacity: 0.3;
+	position: absolute;
+	top: 400px;
+	right: 0;
+	left: 0;
+	max-width: 600px;
+	margin: auto;
+	padding: 10px;
+	-webkit-transition: opacity 1.5s, top 2s;
+    transition: opacity 1.5s, top 2s;
+	font-family: 'Raleway';
+}
+
+.sectiontitle {
+	display: block;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+
+a.sectiontitle:hover {
+	text-decoration: underline;
+}
+
+.sectioncontent {
+	font-size: 90%;
+	line-height: 200%;
+	text-align: justify;
+}
+
+.morelink {
+	text-weight: bold;
+	text-decoration: underline;
+	color: #111111;
+	font-size: 110%;
+}
+
+.morelink:hover {
+	text-decoration: none;
+}
