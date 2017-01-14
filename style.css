@@ -9,7 +9,7 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 	z-index: 999;
-	font-family: 'Raleway';
+	font-family: 'Josefin Sans';
 }
 
 #toplogo {
@@ -85,7 +85,7 @@
 	padding: 10px;
 	-webkit-transition: opacity 1.5s, top 2s;
     transition: opacity 1.5s, top 2s;
-	font-family: 'Raleway';
+	font-family: 'Josefin Sans';
 }
 
 .sectiontitle {
@@ -101,7 +101,6 @@ a.sectiontitle:hover {
 }
 
 .sectioncontent {
-	font-size: 90%;
 	line-height: 200%;
 	text-align: justify;
 }
