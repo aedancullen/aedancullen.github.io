@@ -97,6 +97,10 @@
 	color: #000000;
 }
 
+h1 {
+	text-align: center;
+}
+
 a.sectiontitle:hover {
 	text-decoration: underline;
 }
