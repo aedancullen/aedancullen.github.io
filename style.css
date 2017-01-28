@@ -84,8 +84,8 @@
 	max-width: 600px;
 	margin: auto;
 	padding: 10px;
-	-webkit-transition: opacity 1.5s, top 2s;
-    transition: opacity 1.5s, top 2s;
+	-webkit-transition: opacity 0.5s, top 2s;
+    transition: opacity 0.5s, top 2s;
 	font-family: 'Josefin Sans';
 }
 
