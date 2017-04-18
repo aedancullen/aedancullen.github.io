@@ -13,7 +13,7 @@ function slide(link, location) {
 	$(link).addClass('toplinkselected');
 	nukeFaders();
 	$('.slidecontent.'+location).css('opacity','1');
-	$('.slidecontent.'+location).css('top','300px');
+	$('.slidecontent.'+location).css('top','350px');
 }
 
 window.onload = function() {
