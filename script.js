@@ -4,7 +4,7 @@ function nukeClasses() {
 }
 
 function nukeFaders() {
-	$('.slidecontent').each(function (index) {$(this).css('opacity','0.3');$(this).css('top','400px');});
+	$('.slidecontent').each(function (index) {$(this).css('opacity','0.3');$(this).css('top','500px');});
 }
 
 function slide(link, location) {
