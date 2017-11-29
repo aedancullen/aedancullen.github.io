@@ -4,7 +4,7 @@ function nukeClasses() {
 }
 
 function nukeFaders() {
-	$('.slidecontent').each(function (index) {$(this).css('opacity','0.3');$(this).css('top','500px');});
+	$('.slidecontent').each(function (index) {$(this).css('opacity','0.3');$(this).css('top','750px');});
 }
 
 function slide(link, location) {
@@ -13,7 +13,7 @@ function slide(link, location) {
 	$(link).addClass('toplinkselected');
 	nukeFaders();
 	$('.slidecontent.'+location).css('opacity','1');
-	$('.slidecontent.'+location).css('top','350px');
+	$('.slidecontent.'+location).css('top','500px');
 }
 
 window.onload = function() {
