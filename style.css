@@ -59,8 +59,8 @@
 	left: 0%;
 	width: 400%;
 	height: 200%;
-	-webkit-transition: left 1.5s cubic-bezier(.23,.88,.88,.98);
-    transition: left 1.5s cubic-bezier(.23,.88,.88,.98);
+	-webkit-transition: left 1s;
+    transition: left 1s;
 }
 
 .slideitem {
@@ -71,8 +71,8 @@
 	left: 0;
 	width: 25%;
 	opacity: 0.1;
-	-webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;
+	-webkit-transition: opacity 1s;
+    transition: opacity 1s;
 }
 
 .slidecontent {
@@ -84,8 +84,8 @@
 	max-width: 600px;
 	margin: auto;
 	padding: 10px;
-	-webkit-transition: opacity 0.5s, top 2s;
-    transition: opacity 0.5s, top 2s;
+	-webkit-transition: opacity 1s, top 2s;
+    transition: opacity 1s, top 2s;
 	font-family: 'Josefin Sans';
 }
 
