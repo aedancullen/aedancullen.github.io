@@ -1,91 +1,16 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>aedancullen - computer scientist, programmer, engineer</title>
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Aedan has been making things with technology for as long as he can remember.">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="script.js"></script>
+<title>Aedan's desk</title>
+<style>
+html {
+  background: url(desk.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
 </head>
-
-
 <body>
-<div id="slidercontainer">
-
-<div id="topbar">
-
-<a href="javascript:void(0);" onclick="slide($('#start'),'0');">
-<img id="toplogo" src="https://avatars2.githubusercontent.com/u/23391273">
-</img>
-</a>
-
-<a class="toplink" id="start" href="javascript:void(0);" onclick="slide(this,'0');">ABOUT
-</a>
-<a class="toplink" href="javascript:void(0);" onclick="slide(this,'-100');">TECH
-</a>
-<a class="toplink" href="javascript:void(0);" onclick="slide(this,'-200');">CODE
-</a>
-<a class="toplink" href="javascript:void(0);" onclick="slide(this,'-300');">MISC
-</a>
-<a class="toplink" href="https://github.com/aedancullen">GITHUB
-</a>
-
-</div><!--topbar-->
-
-<div id="slider">
-
-<div class="slideitem" style="left: 0%;">
-<div class="slidecontent 0">
-<h1>INNOVATING WITH TECHNOLOGY</h1>
-<span class="sectiontitle">SMARTER DATA, SMARTER ROBOTS, AND MORE</span><br><br><br><br><br><br>
-<p class="sectiontitle">Aedan has developed systems for networking, machine learning, robotics, and control theory. He likes to make software for the open-source community, and he also likes to make music.</p>
-</div><!--slidecontent-->
-</div><!--slideitem-->
-<div class="slideitem" style="left: 25%;">
-<div class="slidecontent -100">
-<a class="sectiontitle" href="http://www.evolutionftc.com">EVOLUTION FTC</a>
-<p class="sectiontitle">Aedan is the lead software developer for Evolution, the FIRST Technical Challenge Team #9867. <a class="morelink" href="http://www.github.com/evolutionftc">github.com/evolutionftc</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/marv-mk7">MARV-MK7</a>
-<p class="sectiontitle">Evolution's seventh robot, designed for the FTC Velocity Vortex competition. <a class="morelink" href="http://www.github.com/aedancullen/marv-mk7">github.com/aedancullen/marv-mk7</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/marv-mk6">MARV-MK6</a>
-<p class="sectiontitle">Evolution's sixth robot, designed for the FTC RES-Q competition. <a class="morelink" href="http://www.github.com/aedancullen/marv-mk6">github.com/aedancullen/marv-mk6</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/marv-mk5">MARV-MK5</a>
-<p class="sectiontitle">Evolution's fifth robot, a universally-compatible 'minibot' with insanely compact design for FIRST Lego League. <a class="morelink" href="http://www.github.com/aedancullen/marv-mk5">github.com/aedancullen/marv-mk5</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/devices-kiosk">DEVICES-KIOSK</a>
-<p class="sectiontitle">A Chromebook-tracking system designed by Aedan for the Hopkins Academy Library in Hadley. <a class="morelink" href="http://www.github.com/aedancullen/devices-kiosk">github.com/aedancullen/devices-kiosk</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/devices-kiosk">FLL-VICTIMTRACKER</a>
-<p class="sectiontitle">A device designed for FIRST Lego League "Nature's Fury" to track victims of natural disasters. <a class="morelink" href="http://www.github.com/aedancullen/fll-victimtracker">github.com/aedancullen/fll-victimtracker</a></p>
-</div><!--slidecontent-->
-</div><!--slideitem-->
-<div class="slideitem" style="left: 50%;">
-<div class="slidecontent -200">
-<a class="sectiontitle" href="http://awrns.github.io">AWARENESS</a>
-<p class="sectiontitle">Awareness is the functionality-distribution network, an entirely new way to think about data transfer and processing on the Internet. <a class="morelink" href="http://www.github.com/awrns">github.com/awrns</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/ftc-flow">AURAL-ENGINE</a>
-<p class="sectiontitle">The legendary absolute position estimation system for FIRST Technical Challenge. <a class="morelink" href="http://www.github.com/aedancullen/aural-engine">github.com/aedancullen/aural-engine</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/fruity">FRUITY</a>
-<p class="sectiontitle">Aedan's motion-modeling omnidirectional driving controller for FIRST Technical Challenge. <a class="morelink" href="http://www.github.com/aedancullen/fruity">github.com/aedancullen/fruity</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/triangular">TRIANGULAR</a>
-<p class="sectiontitle">A MOSSE-based computer vision library for FIRST Technical Challenge. <a class="morelink" href="http://www.github.com/aedancullen/triangular">github.com/aedancullen/triangular</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/python-prerendering-browser">PYTHON-PRERENDERING-BROWSER</a>
-<p class="sectiontitle">A web browser written in Python using support-vector machine learning. It's faster than Google Chrome. <a class="morelink" href="http://www.github.com/aedancullen/python-prerendering-browser">github.com/aedancullen/python-prerendering-browser</a></p>
-<br><br><br><br><br><br><a class="sectiontitle" href="http://www.github.com/aedancullen/opencv-panda3d-ar">OPENCV-PANDA3D-AR</a>
-<p class="sectiontitle">Augmented reality in Python using OpenCV and Panda3D, along with an innovative Wi-Fi "zone" system of content distribution. <a class="morelink" href="http://www.github.com/aedancullen/opencv-panda3d-ar">github.com/aedancullen/opencv-panda3d-ar</a></p>
-</div><!--slidecontent-->
-</div><!--slideitem-->
-<div class="slideitem" style="left: 75%;">
-<div class="slidecontent -500">
-</div><!--slidecontent-->
-</div><!--slideitem-->
-
-</div><!--slider-->
-
-</div><!--slidercontainer-->
 </body>
-
-
 </html>
